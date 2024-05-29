@@ -20,11 +20,6 @@ public class Main {
 
         int seconds = sc.nextInt();
 
-//        if (seconds < 0 && seconds > 28800 ) {
-//            System.out.println("Введене не верное значение");
-//            return;
-//        }
-
         int hour = seconds / secondsInHour;
 
         if ( hour >= 5 && hour <= 8) {
