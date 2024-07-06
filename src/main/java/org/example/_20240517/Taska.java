@@ -1,4 +1,4 @@
-package Java.src.main.java.org.example._20240517;
+package org.example._20240517;
 
 import java.util.Scanner;
 public class Taska {

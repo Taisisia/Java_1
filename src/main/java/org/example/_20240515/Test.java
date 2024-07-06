@@ -1,4 +1,4 @@
-package Java.src.main.java.org.example._20240515;
+package org.example._20240515;
 //Создать класс Test.
 //Создать метод main.
 //Создать все переменные примитивных и не примитивных типов.

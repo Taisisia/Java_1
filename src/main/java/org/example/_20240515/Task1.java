@@ -1,4 +1,4 @@
-package Java.src.main.java.org.example._20240515;
+package org.example._20240515;
 
 public class Task1 {
     //Дано трехзначное число. Вывести на экран все цифры этого числа

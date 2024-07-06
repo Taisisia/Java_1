@@ -1,4 +1,4 @@
-package Java.src.main.java.org.example._20240516;
+package org.example._20240516;
 
 public class Main {
     public static void main(String[] args) {
