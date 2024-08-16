@@ -88,6 +88,7 @@ public class Calculator {
     // метод getCounterOperations считает количество математических операций (+ ,- ,*, / )
     private int getCounterOperations(String inputString) {
         int counter = 0;
+
         for (int i = 0; i < inputString.length(); i++) {
             if (isOperation(inputString.charAt(i))) {  // проверяем является ли символ по индексу
                 counter++;                              // i математич. операцией

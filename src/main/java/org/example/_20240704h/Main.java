@@ -1,5 +1,9 @@
 package org.example._20240704h;
 
+import org.example._20240531.main;
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -24,5 +28,39 @@ public class Main {
         // Преобразуйте строку к нижнему регистру.
         System.out.println("Преобразуйте строку к нижнему регистру: "+ string.toLowerCase());
 
+//        Создайте методы с математическими операциями +, -, *, /
+//        Каждый метод принимает два числа в параметрах и возвращает результат
+//        Вызовите все методы в main
+//        Результат распечатайте в консоль
+        System.out.println("Сумма сложение чисел " + addition (5, 10)); //addition сложение
+        System.out.println("Разница вычитания чисел " + subtraction (100, 10)); //subtraction вычитание
+        System.out.println("Произведение чисел " + multiply (6, 10));  // multiply умножение
+        System.out.println("Частное чисел " + divide (80, 20)); // divide деление
+
+//        Напишите программу, которая запрашивает имя пользователя и выводит на экран «Добрый день <…….. !>».
+        Scanner scannerName = new Scanner(System.in);
+        System.out.println("Введите свое имя");
+        String userName = scannerName.nextLine();
+        System.out.println("Добрый день " + userName + "!");
+
+//
+// Улучшите программу, которая запрашивает имя пользователя и выводит на экран
+//«Добрый день  <…….. !>».
+//«Ваше имя начинается с символа <.> и заканчивается на символ <.>».
+        System.out.println("«Ваше имя начинается с символа "+ userName.charAt(0)+ " и заканчивается на символ " + userName.charAt(userName.length() - 1));
+    }
+    public static int addition (int a, int b ) { // addition сложение
+      return Math.addExact(a, b);
+    }
+    public static int subtraction  (int a, int b ) { //subtraction вычитание
+
+        return Math.subtractExact(a, b);
+    }
+    public static int multiply  (int a, int b ) { // multiply умножение
+
+        return  Math.multiplyExact(a, b);
+    }
+    public static int divide  (int a, int b ) { // divide деление
+        return  Math.divideExact(a, b);
     }
 }
